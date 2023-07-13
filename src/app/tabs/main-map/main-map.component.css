@@ -1,0 +1,48 @@
+.map-container{
+    position: relative;
+    /* /* top: 50px; */
+    align-content: center;
+    /* right: 0; */
+    bottom: 1;
+    margin-bottom: 10px;
+    height: 500px;
+    width: 100vw;
+    border-radius: 20px;
+    /* padding: 10px; */
+}
+
+.map-frame{
+    border: 2px solid black;
+    height: 100%;
+    /* z-index: 1; */
+}
+
+#htmlMap{
+    /* // position: relative; */
+    /* // width: 50%; */
+    height: 100%;
+    width: 100%;
+    /* z-index: 0; */
+     /* // Hvad ligger øverst og nederst? */
+}
+
+h5 {
+    margin-bottom: 0px;
+}
+button {
+    margin-left: 15px;
+    background-color: cornflowerblue;
+    color: black;
+}
+input{
+    margin: 5px;
+    height: 20pt;
+    /* padding: 15px; */
+}
+
+#htmlMap button {
+    /* PopUp Button. */
+    /* Det lader ikke til, at man kan tilgå map i dette CSS-ark */
+    background-color: cornflowerblue;
+    width: 100%;
+}

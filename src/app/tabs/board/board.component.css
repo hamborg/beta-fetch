@@ -1,0 +1,38 @@
+.card-container {
+  /* width: 600px; */
+  /* display: flex; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.card {
+  /* border-radius: 8px; */
+  position: relative;
+  background-color: ivory;
+  /* max-width: 500px; */
+  margin: 0 0 18px 0;
+  /* padding: 10px 25px 15px 15px; */
+
+  /* all: unset; */
+  /* border: 1px solid #ddd; */
+  /* height: 40px; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: left; */
+  /* flex-wrap: wrap; */
+  /* align-items: left; */
+  /* transition: all 5.2s ease-in-out; */
+  /* line-height: 24px; */
+}
+
+
+.sub {
+  font-size: 9px;
+  color: grey;
+}
+
+td.tag {
+  font-variant-caps: all-small-caps;
+}

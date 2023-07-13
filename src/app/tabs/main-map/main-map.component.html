@@ -1,0 +1,39 @@
+<div class="map-container">
+  <div class="map-frame">
+    <div id="htmlMap"></div>
+  </div>
+</div>
+
+<button mat-button (click)="centerMe()">Find tilbage</button>
+<button mat-button (click)="zoomToBounds()">Zoom til bounds</button>
+<button mat-button (click)="placeMarker()">{{this.placer? "Sæt din nål HER!" : "Lav en ny placering"}}</button>
+<button mat-button (click)="createFetchList()">Hent fetch-liste</button>
+
+<input type="text" name="dist-input" class="input" (change)="inputFn($event)">
+<button mat-button secondary (click)="showCircle()">Vis cirkel</button>
+<button mat-button secondary (click)="approachingMarker()">Hvad har vi her?</button>
+
+<p *ngIf="nyPlacering">Din Placering: {{nyPlacering.pos}}<br>Du er altså {{nyPlacering.distance}} væk.</p>
+<div *ngIf="allFetches.length > 0">
+<h1>{{title}}</h1>
+<mat-nav-list class="fetch-list">
+  <mat-list-item lines="4" role="navigation" *ngFor="let f of allFetches" class="fetch-item" (click)="clickListItem(f)">
+    <!-- <div> -->
+      <span matListItemTitle>{{f.request.headline}}</span>
+      <span matListItemLine>location: {{f.location.name}}</span>
+      <span matListItemLine>content: {{f.request.text}}</span>
+    <!-- </div>   -->
+    <!-- name: {{f.user.name}}<br>
+    thing: {{f.request.thing}}<br>
+      price: {{f.request.price}}<br> -->
+  </mat-list-item>
+  <mat-divider [inset]="true"></mat-divider>
+</mat-nav-list>
+</div>
+ <!-- <mat-list role="list">
+  <mat-list-item role="listitem">Item 1</mat-list-item>
+  <mat-list-item role="listitem">Item 2</mat-list-item>
+  <mat-list-item role="listitem">Item 3</mat-list-item>
+</mat-list>
+  -->
+<app-fetch-detail></app-fetch-detail>

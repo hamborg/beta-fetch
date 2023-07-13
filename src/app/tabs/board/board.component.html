@@ -1,0 +1,6 @@
+<div class="card-container">
+    <div class="card" *ngFor="let fetch of allFetches; let i=index">
+        Index: {{i}}
+        <fetch-card [f]="fetch" [idx]="i"></fetch-card>
+    </div>
+</div>
