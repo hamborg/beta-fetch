@@ -1,0 +1,29 @@
+{
+	"Collection": [
+		{
+			"_id":{"$oid":"6390e24dd327a85d9f3462ac"},
+			"user":{
+				"_id":"5test222ksa243yy2j2v",
+				"name": "Thomas Tog"},
+			"request":{
+				"version":3,
+				"headline":"Lidt røg til systemmet",
+				"text":"Er der nogen, der har noget røg?",
+				"thing":"joint/weed/skunk",
+				"quantity":2,
+				"price":"100 kr.",
+				"tags":["weed","joint","hash","skunk"]},
+				"location":{
+					"name":"Camp Helge",
+					"lat":55.617801505342095,
+					"lng":12.077824195730993
+				},
+				"meta":{
+					"active":true,
+					"date":{
+						"generated":"16-12-2022"
+					}
+				}
+		}
+	]
+}

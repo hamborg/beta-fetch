@@ -21,8 +21,12 @@
     "useDefineForClassFields": false,
     "lib": [
       "ES2022",
+      "es5",
       "dom"
-    ]
+    ],
+    "resolveJsonModule": true
+    // tilføjet for at loade Json direkte. https://stackoverflow.com/questions/47206924/angular-5-service-to-read-local-json-file
+    // "import * as Example from "examplefile.json"
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

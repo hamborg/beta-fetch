@@ -1,0 +1,115 @@
+{
+	"Collection": [
+		{
+			"_id":{"$oid":"6390e24dd327a85d9f3462ac"},
+			"user":{
+				"_id":"5test222ksa243yy2j2v",
+				"name": "Thomas Tog"},
+			"request":{
+				"version":3,
+				"headline":"Lidt røg til systemet",
+				"text":"Er der nogen, der har noget røg?",
+				"thing":"joint/weed/skunk",
+				"quantity":2,
+				"price":"100 kr.",
+				"tags":["weed","joint","hash","skunk"]},
+			"location":{
+				"name":"Camp Helge",
+				"latlng":{
+					"lat":55.73793546140935,
+					"lng":12.337646484375002
+				}
+			},
+			"meta":{
+				"active":true,
+				"date":{
+					"generated":"16-12-2022"
+				}
+			}
+		},
+		{"_id":{"$oid":"6390e24dd327a85d9f3462ac"},"user":{"_id":"0test4cj4920jd4924j2v", "name":"Katja Kaj"},"request":{"version":3,"headline":"6 øl ønskes!","text":"vi er skidetørstige i F34. Kan vi få bragt 6 pils, så giver vi klamydia.","thing":"øl","quantity":6,"price":"kys og kram","tags":["øl","F34","Roskilde","fest"]},"location":{"name":"F34","latlng":{"lat":55.59076338488528,"lng":12.290954589843752}},"meta":{"active":true,"date":{"generated":"26-11-2022","updated":[{"_u1":"28-11-2022"},{"_u2":"02-12-2022"}],"deleted":"","fetched":""},"bought":{"_buyid":"0buy902384m3284mcs8f72z","buyer":{"_id":"1test4023408h645d7s769f3g84533450jf3345"},"date":"30-11-2023","price":"4 runder ølbowling"}}},
+		{"_id":{"$oid":"6390e8afd327a85d9f3462bf"},"user":{"_id":"1test4c4345j24349345j2v", "name":"Postman Per"},"request":{"version":3,"headline":"Pizza til tøzerne!","text":"Vi er 4 damer, der er sultne!","thing":"pizzaer: nummer 2, 2 nummer 15 og nummer 19","quantity":4,"price":"kys på kinden","tags":["pizza","piger","fest","H19"]},"location":{"name":"H19","latlng":{"lat":55.71164005362048,"lng":12.208557128906252}},"meta":{"active":true,"date":{"generated":"19-10-2022"}}},
+		{"_id":{"$oid":"6390e5f6d327a85d9f3462b3"},"user":{"_id":"0test4cj4920jd4924j2v", "name":"Bente Bent"},"request":{"version":3,"headline":"Mangler papvin!","text":"Vi holder vm i papvin. Kom glad!","thing":"papvin","quantity":3,"price":"fire kolde øl","tags":["papvin","Silent","Roskilde","VM"]},"location":{"name":"J34","latlng":{"lat":55.617601505342094,"lng":12.075124195730993}},"meta":{"active":true,"date":{"generated":"27-10-2022"}}},
+		{
+			"_id":{"$oid":"testfetch1"},
+			"user":{
+				"_id":"testuser1",
+				"name": "TESTER 1"},
+			"request":{
+				"version":3,
+				"headline":"Jeg skal bede om ting",
+				"text":"Jeg er sulten. Hent en burger!",
+				"thing":"burger",
+				"quantity":1,
+				"price":"Tester-deo",
+				"tags":["mad","test"]},
+			"location":{
+				"name":"Testergade 1",
+				"latlng":{
+					"lat":55.2502,
+					"lng":11.8495
+				}
+			},
+			"meta":{
+				"active":true,
+				"date":{
+					"generated":"04-03-2023"
+				}
+			}
+		},
+		{
+			"_id":{"$oid":"testfetch2"},
+			"user":{
+				"_id":"testuser2",
+				"name": "TESTER 2"},
+			"request":{
+				"version":3,
+				"headline":"Jeg skal bede om ting",
+				"text":"Jeg er sulten. Hent en burger!",
+				"thing":"burger",
+				"quantity":1,
+				"price":"Tester-deo",
+				"tags":["mad","test"]},
+			"location":{
+				"name":"Testergade 2",
+				"latlng":{
+					"lat":55.55589,
+					"lng":11.49245
+				}
+			},
+			"meta":{
+				"active":true,
+				"date":{
+					"generated":"04-03-2023"
+				}
+			}
+		},
+		{
+			"_id":{"$oid":"testfetch3"},
+			"user":{
+				"_id":"testuser3",
+				"name": "TESTER 3"},
+			"request":{
+				"version":3,
+				"headline":"Jeg skal bede om ting",
+				"text":"Jeg er sulten. Hent en burger!",
+				"thing":"burger",
+				"quantity":1,
+				"price":"Tester-deo",
+				"tags":["mad","test"]},
+			"location":{
+				"name":"Testergade 3",
+				"latlng":{
+					"lat":55.701687,
+					"lng":11.868355
+				}
+			},
+			"meta":{
+				"active":true,
+				"date":{
+					"generated":"04-03-2023"
+				}
+			}
+		}
+	]
+}

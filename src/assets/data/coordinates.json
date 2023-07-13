@@ -1,0 +1,69 @@
+[
+    {
+        "navn":"Anders",
+        "id":1,
+        "position":{
+            "lat":55.6164958,
+            "lng":12.0802031
+        },
+        "kategori":"red",
+        "besked":"Jeg står her!",
+        "preferencer":["banan", "citron", "druer"]
+    },
+    {
+        "navn":"Bjarke",
+        "id":2,
+        "position":{
+            "lat":55.6164958,
+            "lng":12.0702031
+        },
+        "kategori":"green",
+        "besked":"Jeg står altså herovre!",
+        "preferencer":["banan", "citron", "druer"]
+    },
+    {
+        "navn":"Christian",
+        "id":3,
+        "position":{
+            "lat":55.6264958,
+            "lng":12.0702031
+        },
+        "kategori":"orange",
+        "besked":"Jeg står IKKE her!",
+        "preferencer":["banan", "citron", "druer"]
+    },
+    {
+        "navn":"Daniel",
+        "id":4,
+        "position":{
+            "lat":55.6264958,
+            "lng":12.0902031
+        },
+        "kategori":"red",
+        "besked":"Hvor er jeg?\nFind mig lige!",
+        "preferencer":["banan", "citron", "druer"]
+    },
+    {
+        "navn":"Erik",
+        "id":5,
+        "position":{
+            "lat":55.6064958,
+            "lng":12.0802031
+        },
+        "kategori":"green",
+        "besked":"Hvor er der stemning!",
+        "preferencer":["banan", "citron", "druer"]
+    },
+    {
+        "navn":"Frederik",
+        "id":6,
+        "position":{
+            "lat":55.6064958,
+            "lng":12.0702031
+        },
+        "kategori":"green",
+        "besked":"Og hvor er der fest?",
+        "preferencer":["banan", "citron", "druer"]
+    }
+    
+]
